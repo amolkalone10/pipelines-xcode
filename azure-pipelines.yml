@@ -17,7 +17,6 @@ steps:
 - task: InstallAppleCertificate@2
   inputs:
     certSecureFile: 'fni.p12'
-    certPwd: ''
 
 - task: InstallAppleProvisioningProfile@1
   inputs:
